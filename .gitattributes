@@ -1,0 +1,3 @@
+# Garantir que arquivos de script sejam executáveis
+*.sh text eol=lf
+

@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Roteamento para arquivos PHP
+RewriteRule ^user$ user.php [L]
+RewriteRule ^messages$ messages.php [L]
+
+

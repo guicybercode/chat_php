@@ -1,0 +1,45 @@
+# Elixir
+/_build/
+/deps/
+/.elixir_ls/
+*.beam
+*.ez
+
+# Phoenix
+/elixir-chat/priv/static/
+/elixir-chat/priv/cache/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Configurações locais
+php-api/config.local.php
+
+# Arquivos temporários
+/tmp/
+*.tmp
+
+# Arquivos de servidor
+/tmp/php-server.log
+/tmp/phoenix-server.log
+/tmp/frontend-server.log
+
+# Crash dumps
+erl_crash.dump
+
+
