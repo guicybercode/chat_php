@@ -1,6 +1,6 @@
 # Elixir
-/_build/
-/deps/
+elixir-chat/_build/
+elixir-chat/deps/
 /.elixir_ls/
 *.beam
 *.ez
